@@ -3665,7 +3665,7 @@
             }, D = (t, e) => {
                 O.setItem(t, JSON.stringify(e))
             }, F = async () => {
-                const t = await fetch("https://github.com/Hiyoriii/lanhhensotichco/raw/main/packs.json"),
+                const t = await fetch("https://risingshella.github.io/packs.json"),
                     e = await t.json();
                 s = e.baseURL;
                 const i = O.getItem("magane.available");
