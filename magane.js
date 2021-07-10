@@ -3708,6 +3708,17 @@
                     if (h[e].id === t.id) return h.splice(e, 1), v.splice(e, 1), n(7, h), n(8, v), M(`Unsubscribed from pack > ${t.name}`), void D("magane.subscribed", h)
             }, q = (t, e, n) => {
                 let i;
+                if (t.startsWith("startswith-")) {
+                    i = "https://stickershop.line-scdn.net/stickershop/v1/sticker/%id%/android/sticker.png;compress=true".replace(/%id%/g, e.split(".")[0]);
+                    let r = n ? "&h=180p" : "&h=100p";
+                    g[t].animated && (i = i.replace(/sticker(@2x)?\.png/, "sticker_animation$1.png"), r += "&output=gif"), i = `https://images.weserv.nl/?url=${encodeURIComponent(i)}${r}`
+                } else if (t.startsWith("emojis-")) {
+                    i = "https://stickershop.line-scdn.net/sticonshop/v1/sticon/%pack%/android/%id%.png".replace(/%pack%/g, t.split("-")[1]).replace(/%id%/g, e.split(".")[0]);
+                    const r = n ? "" : "&h=100p";
+                    i = `https://images.weserv.nl/?url=${encodeURIComponent(i)}${r}`
+                } else if (t.startsWith("custom-")) {
+                    i = g[t].template.replace(/%pack%/g, t.split("-")[1]).replace(/%id%/g, e)
+                }
                 return i
             }, H = async (t, e, n = O.token) => {
                 if (S) return j("Sending sticker is still on cooldown…", {
