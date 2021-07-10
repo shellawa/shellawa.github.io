@@ -3708,7 +3708,7 @@
                     if (h[e].id === t.id) return h.splice(e, 1), v.splice(e, 1), n(7, h), n(8, v), M(`Unsubscribed from pack > ${t.name}`), void D("magane.subscribed", h)
             }, q = (t, e, n) => {
                 let i;
-                if ("number" == typeof t) i = `${s}${t}/${e}`, n || (i = i.replace(/\.(gif|png)$/i, "_key.$1"));
+                if ("number" == typeof t) i = `${s}${t}/${e}`, n || (i = i.replace(/\.(gif|png)$/i, ".$1"));
                 else if (t.startsWith("startswith-")) {
                     i = "https://stickershop.line-scdn.net/stickershop/v1/sticker/%id%/android/sticker.png;compress=true".replace(/%id%/g, e.split(".")[0]);
                     let r = n ? "&h=180p" : "&h=100p";
