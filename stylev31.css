@@ -28,10 +28,10 @@ table{
 	border-spacing:0
 }
 :root{
-	--biolinky-white: #fff;
+	--biolinky-white: #2f3136;
 	--biolinky-light-grey: #36393E;
 	--transparent-white: #36393E;
-	--biolinky-black:#2e2c34;
+	--biolinky-black:#fff;
 	--biolinky-grey:#726b8c;
 	--highlight: #36393E;
 	--biolinky-light-blue:#57c0ff;
@@ -3355,7 +3355,7 @@ input:checked+.slider:before{
 	grid-gap:1rem;
 	grid-template-columns:1fr 1fr
 }
-@media (--xl) {
+@media (--xl) {
 	.home__header__actionBtn__container{
 		grid-template-columns:1fr 1fr 1fr 1fr
 }
@@ -4922,7 +4922,7 @@ body,button{
 }
 .body{
 	min-height:100%;
-	background-color:#fbf9fb
+	background-color:#36393f
 }
 @media screen and (min-width:768px){
 	.body{
