@@ -2714,7 +2714,7 @@ footer{
 	max-width:6rem;
 	min-width:6rem;
 	min-height:6rem;
-	box-shadow:0 2rem 2rem rgba(213,221,236,.4)
+	box-shadow:0 2rem 2rem #2f3136
 }
 .home__biopage__bio__name{
 	display:flex;
