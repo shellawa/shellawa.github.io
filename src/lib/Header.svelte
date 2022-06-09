@@ -5,7 +5,7 @@
 <section class="headerBox">
   <section class="header">
     <div class="pfp">
-      <img src={"/assets/pfps/" + data.avatarUrl} alt="pfp" srcset="" />
+      <img src={"/assets/pfps/" + data.avatarUrl} draggable="false" alt="pfp" />
     </div>
     <div>
       <div class="name">
