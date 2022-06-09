@@ -5,47 +5,47 @@
     header: {
       name: "Shella",
       bio: "awa",
-      avatarUrl: "https://cdn.discordapp.com/attachments/852890257950769163/900368471144169552/nino.jpg.png",
+      avatarUrl: "./public/assets/pfps/futaribeya_kasumi_1.png",
     },
     links: [
       {
         name: "osu!",
-        icon: "./src/assets/icons/osu.png",
+        icon: "./public/assets/icons/osu.png",
         link: "https://osu.ppy.sh/users/13368266",
       },
       {
         name: "Facebook",
-        icon: "./src/assets/icons/facebook.png",
+        icon: "./public/assets/icons/facebook.png",
         link: "https://www.facebook.com/shellawawawa/"
       },
       {
         name: "Reddit",
-        icon: "./src/assets/icons/reddit.png",
+        icon: "./public/assets/icons/reddit.png",
         link: "https://www.reddit.com/user/allehS"
       },
       {
         name: "allehS🌿#3510",
-        icon: "./src/assets/icons/discord.png",
+        icon: "./public/assets/icons/discord.png",
         link: "https://discord.com/users/749117124831608853"
       },
       {
         name: "Github",
-        icon: "./src/assets/icons/github.png",
+        icon: "./public/assets/icons/github.png",
         link: "https://github.com/Hiyoriii"
       },
       {
         name: "Steam",
-        icon: "./src/assets/icons/steam.png",
+        icon: "./public/assets/icons/steam.png",
         link: "https://steamcommunity.com/id/allehS"
       },
       {
         name: "MyAnimeList",
-        icon: "./src/assets/icons/mal.png",
+        icon: "./public/assets/icons/mal.png",
         link: "https://myanimelist.net/profile/shellasinn"
       },
       {
         name: "ln.hako",
-        icon: "./src/assets/icons/hako.png",
+        icon: "./public/assets/icons/hako.png",
         link: "https://ln.hako.vn/thanh-vien/119235"
       }
     ],
