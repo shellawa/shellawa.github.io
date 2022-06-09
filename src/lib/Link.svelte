@@ -4,7 +4,7 @@
 
 <a href={data.link} target="_blank">
   <div class="linkBox">
-    <img draggable="false" src={data.icon} class="icon" alt="">
+    <img draggable="false" src={"/assets/icons/" + data.icon} class="icon" alt="">
     <p class="name">{data.name}</p>
   </div>
 </a>
