@@ -24,7 +24,7 @@
         link: "https://www.reddit.com/user/allehS"
       },
       {
-        name: "Asymmetry#3510",
+        name: "Asymmetry🌿#3510",
         icon: "discord.png",
         link: "https://discord.com/users/749117124831608853"
       },
