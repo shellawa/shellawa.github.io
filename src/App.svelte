@@ -41,7 +41,7 @@
       {
         name: "MyAnimeList",
         icon: "mal.png",
-        link: "https://myanimelist.net/profile/shellasinn"
+        link: "https://myanimelist.net/profile/shellawa"
       },
       {
         name: "ln.hako",
