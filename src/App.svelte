@@ -1,17 +1,17 @@
 <script>
-  import Header from "./lib/Header.svelte";
-  import Link from "./lib/Link.svelte";
+  import Header from "./lib/Header.svelte"
+  import Link from "./lib/Link.svelte"
   const info = {
     header: {
       name: "Shella",
       bio: "awa",
-      avatarUrl: "futaribeya_kasumi_1.png",
+      avatarUrl: "00002.jpg"
     },
     links: [
       {
         name: "osu!",
         icon: "osu.png",
-        link: "https://osu.ppy.sh/users/13368266",
+        link: "https://osu.ppy.sh/users/13368266"
       },
       {
         name: "Facebook",
@@ -31,7 +31,7 @@
       {
         name: "Github",
         icon: "github.png",
-        link: "https://github.com/Hiyoriii"
+        link: "https://github.com/shellawa"
       },
       {
         name: "Steam",
@@ -39,17 +39,17 @@
         link: "https://steamcommunity.com/id/allehS"
       },
       {
-        name: "MyAnimeList",
-        icon: "mal.png",
-        link: "https://myanimelist.net/profile/shellawa"
+        name: "AniList",
+        icon: "anilist.png",
+        link: "https://anilist.co/user/shellawa/"
       },
       {
         name: "ln.hako",
         icon: "hako.png",
         link: "https://ln.hako.vn/thanh-vien/119235"
       }
-    ],
-  };
+    ]
+  }
 </script>
 
 <div class="body">
