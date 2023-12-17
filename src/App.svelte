@@ -14,12 +14,12 @@
         link: "https://osu.ppy.sh/users/13368266"
       },
       {
-        name: "Facebook",
+        name: "Shella",
         icon: "facebook.png",
         link: "https://www.facebook.com/shellawawawa/"
       },
       {
-        name: "Reddit",
+        name: "u/allehS",
         icon: "reddit.png",
         link: "https://www.reddit.com/user/allehS"
       },
@@ -29,7 +29,7 @@
         link: "https://discord.com/users/749117124831608853"
       },
       {
-        name: "Github",
+        name: "shellawa",
         icon: "github.png",
         link: "https://github.com/shellawa"
       },
