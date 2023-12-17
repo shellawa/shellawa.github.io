@@ -5,11 +5,11 @@
     header: {
       name: "Shella",
       bio: "awa",
-      avatarUrl: "00002.jpg"
+      avatarUrl: "77820485_p0.png"
     },
     links: [
       {
-        name: "osu!",
+        name: "shellawa",
         icon: "osu.png",
         link: "https://osu.ppy.sh/users/13368266"
       },
@@ -42,11 +42,6 @@
         name: "AniList",
         icon: "anilist.png",
         link: "https://anilist.co/user/shellawa/"
-      },
-      {
-        name: "ln.hako",
-        icon: "hako.png",
-        link: "https://ln.hako.vn/thanh-vien/119235"
       }
     ]
   }
