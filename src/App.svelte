@@ -19,7 +19,7 @@
         link: "https://www.facebook.com/shellawawawa/"
       },
       {
-        name: "u/allehS",
+        name: "/u/allehS",
         icon: "reddit.png",
         link: "https://www.reddit.com/user/allehS"
       },
@@ -34,12 +34,12 @@
         link: "https://github.com/shellawa"
       },
       {
-        name: "Steam",
+        name: "/id/allehS",
         icon: "steam.png",
         link: "https://steamcommunity.com/id/allehS"
       },
       {
-        name: "AniList",
+        name: "shellawa",
         icon: "anilist.png",
         link: "https://anilist.co/user/shellawa/"
       }
